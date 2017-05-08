@@ -18,7 +18,13 @@
               <input type="text" class="form-control" id="name-destination">
             </div>
 
-            <!-- date of destination-->
+            <!-- picture of destination -->
+            <div class="form-group">
+              <label for="photo-destination">Link an photo url:</label>
+              <input type="text" class="form-control" id="photo-destination" placeholder="HTTPS://...">
+            </div>
+
+            <!-- date of destination -->
             <div class="form-group">
               <label for="date-destination">Enter the date you visited:</label>
               <input type="date" class="form-control" id="date-destination">
@@ -46,8 +52,9 @@
         <div class="col-md-6">
           <div id="rightColResults">
             <h2></h2>
+            <span class="result-photo"></span>
             <p>You went to: <span class="result-name"></span></p>
-            <p>On the following date(s): <span class="result-dates"></span></p>
+            <p>On the following date: <span class="result-dates"></span></p>
             <p>And you had so much fun doing: <span class="result-activities"></span></p>
           </div>
 
