@@ -10,3 +10,17 @@ img {
   max-width: 720px;
   max-height: 650px;
 }
+
+body {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+table, td {
+  background: rgba(225, 225, 225, 0.5);
+  border: none;
+  padding: 20px;
+  border-radius: 25px;
+  width: 100%;
+}

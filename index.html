@@ -11,55 +11,60 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <form id="new-destination">
-            <!-- name of destination-->
-            <div class="form-group">
-              <label for="name-destination">Name of the place you have been:</label>
-              <input type="text" class="form-control" id="name-destination">
-            </div>
+          <table><td>
+            <h1>Places I've Been</h1>
+            <form id="new-destination">
+              <!-- name of destination-->
+              <div class="form-group">
+                <label for="name-destination">Name of the place you have been:</label>
+                <input type="text" class="form-control" id="name-destination">
+              </div>
 
-            <!-- picture of destination -->
-            <div class="form-group">
-              <label for="photo-destination">Link an photo url:</label>
-              <input type="text" class="form-control" id="photo-destination" placeholder="HTTPS://...">
-            </div>
+              <!-- picture of destination -->
+              <div class="form-group">
+                <label for="photo-destination">Link an photo url:</label>
+                <input type="text" class="form-control" id="photo-destination" placeholder="HTTPS://...">
+              </div>
 
-            <!-- date of destination -->
-            <div class="form-group">
-              <label for="date-destination">Enter the date you visited:</label>
-              <input type="date" class="form-control" id="date-destination">
-            </div>
+              <!-- date of destination -->
+              <div class="form-group">
+                <label for="date-destination">Enter the date you visited:</label>
+                <input type="date" class="form-control" id="date-destination">
+              </div>
 
-            <!-- what did you do of destination-->
-            <div class="form-group">
-              <label for="activities-destination">What did you do there:</label>
-              <textarea type="text" class="form-control" id="activities-destination"></textarea>
-            </div>
+              <!-- what did you do of destination-->
+              <div class="form-group">
+                <label for="activities-destination">What did you do there:</label>
+                <textarea type="text" class="form-control" id="activities-destination"></textarea>
+              </div>
 
-            <!-- landmarks of destination-->
 
-            <button type="submit" class="btn">Add</button>
+              <button type="submit" class="btn">Add</button>
 
-          </form>
+            </form>
 
-          <h2>Results</h2>
-          <ul id="list-results">
+            <h3>Results</h3>
+            <ul id="list-results">
 
-          </ul>
+            </ul>
+          </table></td>
         </div>
+
+
 
         <!-- right column -->
         <div class="col-md-6">
-          <div id="rightColResults">
-            <h2></h2>
-            <span class="result-photo"></span>
-            <p>You went to: <span class="result-name"></span></p>
-            <p>On the following date: <span class="result-dates"></span></p>
-            <p>And you had so much fun doing: <span class="result-activities"></span></p>
-          </div>
-
-
+          <table id="rightColResults"><td>
+            <div>
+              <h2></h2>
+              <span class="result-photo"></span>
+              <p>You went to: <span class="result-name"></span></p>
+              <p>On the following date: <span class="result-dates"></span></p>
+              <p>And you had so much fun doing: <span class="result-activities"></span></p>
+            </div>
+          </table></td>
         </div>
+
       </div>
     </div>
   </body>
