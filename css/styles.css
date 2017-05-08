@@ -1,5 +1,8 @@
 .user-result {
-  color: red;
+  color: #926F67;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: Open Sans;
 }
 
 #rightColResults {
@@ -15,12 +18,42 @@ body {
   background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 18px;
 }
 
 table, td {
   background: rgba(225, 225, 225, 0.5);
   border: none;
   padding: 20px;
+  margin-top: 50px;
   border-radius: 25px;
   width: 100%;
+}
+
+h1 {
+  font-family: Abril Fatface;
+  letter-spacing: 3px;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Abril Fatface;
+  letter-spacing: 3px;
+  font-size: 40px;
+  text-align: center;
+}
+
+p, label {
+  font-family: Open Sans;
+}
+
+.btn-default {
+  border: thin solid #47230f;
+  background-color: tan;
+}
+
+.btn-default:hover {
+  background-color: tan;
+  opacity: .7;
 }
